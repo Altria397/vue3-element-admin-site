@@ -150,16 +150,16 @@ pageClass: getting-started
 git clone https://github.com/midfar/vue3-element-admin.git
 
 # 进入项目目录
-cd vue-element-admin
+cd vue3-element-admin
 
 # 安装依赖
 npm install
 
 # 建议不要用 cnpm 安装 会有各种诡异的bug 可以通过如下操作解决 npm 下载速度慢的问题
-npm install --registry=https://registry.npm.taobao.org
+npm install --registry=https://registry.npmmirror.com
 
-# 本地开发 启动项目
-npm run dev
+# 本地开发 启动项目，可以先查看项目的package.json 确定启动方法，本项目npm run dev:test 或者dev:prod
+npm run dev:test
 ```
 
 <br/>
